@@ -86,7 +86,8 @@ a {
 }
 
 #community-hero {
-    background-color: #ffb703;
+
+    background-color: #e2c782;
     color: #023047;
     text-align: center;
     padding: 4em 0;
@@ -97,6 +98,7 @@ a {
 }
 
 #com-cards {
+    background-color: #8ecae6;
     display: flex;
     justify-content: center;
 }
@@ -120,22 +122,11 @@ a {
 #yt,
 #ig,
 #wa {
-    border: 1px solid #000000;
-    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+    background-color: white;
+    box-shadow: 5px 5px 10px rgba(197, 197, 197, 0.904);
     margin: 35px;
 }
 
-#yt {
-    background-color: #c1121f;
-}
-
-#ig {
-    background-color: #ff6392;
-}
-
-#wa {
-    background-color: #7ae582;
-}
 
 footer {
     background-color: #023047;
