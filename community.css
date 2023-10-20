@@ -14,31 +14,42 @@
     background-color: #8ecae6;
     display: flex;
     justify-content: center;
-    height: 450px;
+    height: 380px;
     width: 100%;
 }
-
-.card {
-    border-radius: 0 18px 35px 18px;
-    width: 40%;
-    height: 350px;
+.card-container {
+    position: relative;
+    width: 100%; /* Set the width of the card container as needed */
     margin: 10px;
-}
-
-
-
-.card-text {
-    font-size: larger;
-    padding: 5px 12px;
-    margin: 5px 12px;
-    text-align: justify;
-}
-
-#ig,
-#wa {
     background-color: white;
     box-shadow: 5px 5px 10px rgba(197, 197, 197, 0.904);
     margin: 35px;
+    border-radius: 0 18px 35px 18px;
+}
+.card {
+    
+    width: 100%;
+    height: 260px;
+    margin: 10px;
+    
+}
+
+.card-text {
+    font-size: medium;
+    padding: 5px 12px;
+    margin: 5px 10px 5px 35px;
+    text-align: justify;
+    width: fit-content;
+}
+.top-div{
+    display: flex; 
+    align-items: center;
+}
+.bottom-right {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 15px;
 }
 
 .card-button {
@@ -47,34 +58,37 @@
     width: 180px;
     font-size: large;
 }
-
-.card i {
-    background: #023047;
+#wa i{
+    background: #11e746;
+    color: white;
+}
+#ig i{
+    background: linear-gradient(45DEG, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
+    color: white;
+}
+h1 i{
+    background: #ff0000;
     color: white;
 }
 
-.card img{
-    width: 100px;
+.top-div img{
+    width: 80px;
     height: auto;
     margin: 5px;
 }
 
-#ig-topdiv{
-    display: flex; 
-    align-items: center;
-}
-#id-downdiv{
-    height: 100px;
-    width: 100px;
-}
+
 
 #yt{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 20px;
-    width: 100%;
+    margin: auto;
+    padding: auto;
+    width: 95%;
     height: 480px;
+    background-color: #e8e8e8;
+    border-radius: 12px;
 }
 .video-cont {
     display: flex;
@@ -83,6 +97,7 @@
     width:100%;/* Set the width as per your design */ /* Set the height as per your design */
     max-width: 560px;
     margin : 0 auto; /* Center the video horizontally */
+    background-color: rgb(255, 255, 255);
 }
 
 .text-cont{
@@ -91,6 +106,7 @@
     margin: 20px;
     text-align: justify;
     padding: 15px 35px;
+    background-color: rgb(255, 255, 255);
 }
 
 .notice-board {

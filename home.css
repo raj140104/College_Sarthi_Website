@@ -149,11 +149,10 @@ footer {
     text-decoration: wavy;
 }
 
-
 .fa {
     padding: 20px;
-    font-size: 50px;
-    width: 50px;
+    font-size: 30px;
+    width: 30px;
     text-align: center;
     text-decoration: none;
     margin: 5px 2px;
@@ -162,4 +161,3 @@ footer {
   .fa:hover {
     opacity: 0.7;
 }
-
