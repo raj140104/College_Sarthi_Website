@@ -30,8 +30,8 @@ header {
 }
 
 #logo {
-    height: 40px;
-    width: 230px;
+    height: 70px;
+    width: 180px;
     padding: 5px;
     margin: 5px 100px 5px 5px;
 }
@@ -79,7 +79,8 @@ a {
 .hero-content {
     margin: 0 auto;
 }
-.heroimg{
+
+.heroimg {
     width: 45%;
 }
 
@@ -93,7 +94,8 @@ a {
     border: none;
     cursor: pointer;
 }
-#hero button:hover{
+
+#hero button:hover {
     background-color: #ff6501;
     color: #4a3836;
 }
@@ -119,7 +121,8 @@ a {
     text-decoration: none;
     border-radius: 5px;
 }
-.cta-button:hover{
+
+.cta-button:hover {
     background-color: #ff6501;
     color: #4a3836;
 }
@@ -150,6 +153,7 @@ footer {
     text-decoration: none;
     margin: 10px;
 }
+
 .legal-links a:hover {
     color: #ff6501;
 }
