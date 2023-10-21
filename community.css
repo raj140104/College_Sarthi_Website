@@ -4,6 +4,7 @@
     color: #023047;
     text-align: center;
     padding: 4em 0;
+    height: 200px;
 }
 
 .community-hero-content {
@@ -53,22 +54,23 @@
     color: white;
 }
 
-.card img{
+.card img {
     width: 100px;
     height: auto;
     margin: 5px;
 }
 
-#ig-topdiv{
-    display: flex; 
+#ig-topdiv {
+    display: flex;
     align-items: center;
 }
-#id-downdiv{
+
+#id-downdiv {
     height: 100px;
     width: 100px;
 }
 
-#yt{
+#yt {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -76,18 +78,24 @@
     width: 100%;
     height: 480px;
 }
+
 .video-cont {
     display: flex;
     justify-content: center;
     align-items: center;
-    width:100%;/* Set the width as per your design */ /* Set the height as per your design */
+    width: 100%;
+    /* Set the width as per your design */
+    /* Set the height as per your design */
     max-width: 560px;
-    margin : 0 auto; /* Center the video horizontally */
+    margin: 0 auto;
+    /* Center the video horizontally */
 }
 
-.text-cont{
-    width: 50%; /* Set the width as per your design */
-    height: 405px; /* Set the height as per your design */
+.text-cont {
+    width: 50%;
+    /* Set the width as per your design */
+    height: 405px;
+    /* Set the height as per your design */
     margin: 20px;
     text-align: justify;
     padding: 15px 35px;
