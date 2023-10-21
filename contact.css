@@ -1,7 +1,136 @@
+
+
+#faq-section {
+    width: 80%;
+    margin: 80px auto;
+    padding: 30px;
+    background-color: #e8e8e8;
+    border-radius: 12px;
+}
+#faq-inside{
+    background-color: #ffffff;
+    padding: 5px;
+    margin: 5px;
+}
+
+.faq-item {
+    margin-bottom: 20px;
+}
+
+.faq-item h3 {
+    font-weight: bold;
+    color: #333;
+}
+
+.faq-item p {
+    color: #666;
+    line-height: 1.4;
+}
+
+.faq-item a {
+    text-decoration: none;
+    color: #3498db; /* Link color */
+}
+.faq-item a:hover {
+    text-decoration: underline;
+}
+
+#faq-section h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+
+
+#feedback-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: #e2c782;
+}
+
+h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.user-comment {
+    background-color: white;
+    padding: 20px;
+    margin: 20px;
+    flex: 65%;
+    height: 350px;
+    border-radius: 8px;
+}
+
+.user-info img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.user-info p {
+    font-weight: bold;
+    margin: 0;
+}
+
+.comment-text {
+    margin: 10px 0;
+}
+
+.feedback-form {
+    background-color: #e8e8e8;
+    border-radius: 8px;
+    height: 350px;
+    padding: 20px;
+    margin-right: 5px;
+    flex: 35%;
+}
+
+.feedback-form h3 {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.feedback-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.feedback-form input,
+.feedback-form textarea {
+    margin-bottom: 10px;
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.feedback-form button {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.feedback-form button:hover {
+    background-color: #2977ab;
+}
+
+
+
 /* Style for the contact form container */
 .contact-form {
-    width: 50%;
-    margin: 20px auto;
+    width: 60%;
+    margin: 80px auto;
+    padding: 10px 40px;
+    background-color: #e8e8e8;
+    border-radius: 12px;
 }
 
 /* Style for form elements */
