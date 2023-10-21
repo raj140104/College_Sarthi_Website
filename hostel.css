@@ -1,7 +1,50 @@
-/* Footer */
-footer {
-    background-color: #023047;
-    color: white;
-    padding: 1em 0;
-    text-align: center;
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+section {
+    margin: 20px 0;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+}
+
+h2 {
+    color: #3498db;
+}
+
+label, input, select {
+    display: block;
+    margin: 10px 0;
+}
+
+.cta-button {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.listing {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.listing img {
+    width: 100px;
+    height: auto;
+    float: left;
+    margin-right: 10px;
+}
+
+.price {
+    font-weight: bold;
+    color: #3498db;
 }

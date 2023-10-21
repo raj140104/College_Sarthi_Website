@@ -1,10 +1,10 @@
 
 
 #faq-section {
-    width: 80%;
+    width: 1160px;
     margin: 80px auto;
-    padding: 30px;
-    background-color: #e8e8e8;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     border-radius: 12px;
 }
 #faq-inside{
@@ -126,7 +126,7 @@ h2 {
 
 /* Style for the contact form container */
 .contact-form {
-    width: 60%;
+    width: 1160px;
     margin: 80px auto;
     padding: 10px 40px;
     background-color: #e8e8e8;

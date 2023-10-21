@@ -85,7 +85,10 @@ h1 i {
     height: auto;
     margin: 5px;
 }
-
+#icon{
+    font-size: 40px;
+    width: 40px;
+}
 
 #yt {
     display: flex;
