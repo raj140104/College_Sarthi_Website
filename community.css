@@ -1,78 +1,15 @@
 #community-hero {
 
-    background-color: #e2c782;
-    color: #023047;
+    background-color: #fff;
+    color: #4a3836;
     text-align: center;
-    padding: 4em 0;
-    height: 200px;
+    padding: 4em 0 0 0;
+    margin-top: 30px;
+    height: 300px;
 }
 
 .community-hero-content {
     margin: 0 auto;
-}
-
-#com-cards {
-    background-color: #8ecae6;
-    display: flex;
-    justify-content: center;
-    height: 380px;
-    width: 100%;
-}
-
-.card-container {
-    position: relative;
-    width: 100%;
-    /* Set the width of the card container as needed */
-    margin: 10px;
-    background-color: white;
-    box-shadow: 5px 5px 10px rgba(197, 197, 197, 0.904);
-    margin: 35px;
-    border-radius: 0 18px 35px 18px;
-}
-
-.card {
-
-    width: 100%;
-    height: 260px;
-    margin: 10px;
-
-}
-
-.card-text {
-    font-size: medium;
-    padding: 5px 12px;
-    margin: 5px 10px 5px 35px;
-    text-align: justify;
-    width: fit-content;
-}
-
-.top-div {
-    display: flex;
-    align-items: center;
-}
-
-.bottom-right {
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    padding: 15px;
-}
-
-.card-button {
-    border-radius: 10px;
-    height: 90px;
-    width: 180px;
-    font-size: large;
-}
-
-#wa i {
-    background: #11e746;
-    color: white;
-}
-
-#ig i {
-    background: linear-gradient(45DEG, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
-    color: white;
 }
 
 h1 i {
@@ -80,17 +17,231 @@ h1 i {
     color: white;
 }
 
-.top-div img {
-    width: 80px;
-    height: auto;
-    margin: 5px;
-}
+
 #icon{
     font-size: 30px;
     width: 30px;
 }
 
-#yt {
+/*Com - Icon*/
+#comicon{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    background-color: #CADDFF;
+    height: 250px;
+    align-items: center;
+    padding: 20px;
+}
+#com-div{
+    width: 100%;
+    color: #4a3836;
+    text-align: center;
+    margin: 40px 0;
+    
+}
+#comicon-icon{
+    width: 100%;
+    text-align: right;
+    display: flex;
+    align-items: center;
+    margin: 40px 0;
+    justify-content: center;
+}
+#wa i {
+    background: #11e746;
+    color: white;
+    margin: 20px;
+}
+
+#ig i {
+    background: linear-gradient(45DEG, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
+    color: white;
+    margin: 20px;
+}
+#tg i {
+    background: #0088cc;
+    color: white;
+    margin: 20px;
+}
+#yt i {
+    background: #ff0000;
+    color: white;
+    margin: 20px;
+}
+#li i{
+    background: #0A66C2;
+    color: white;
+    margin: 20px;
+}
+#gmail i{
+    background: #ff0000;
+    color: white;
+    margin: 20px;
+}
+
+/*Comm -Div*/
+#comm-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 430px;
+    margin: 30px 0 40px 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    background-image: url(./Images/community.png); /* Your background image URL */
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+#comm-subdiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#joinus{
+    
+}
+#joincomm{
+
+}
+.comm-main{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px 40px;
+    margin: 0 25px;
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    /*background-image: url(./Images/community.png);
+    background-color: rgba(0, 0, 0, 0.1);*/
+    transition: transform 0.3s ease;
+}
+.comm-main:hover{
+    transform: scale(1.15);
+    background-color: #E5E5E5;
+}
+
+#comm-arr{
+    background: #4a3836;
+    color: white;
+    font-size: 18px;
+}
+
+.comm-butt{
+    background-color: #4a3836;
+    color: white;
+    font-size: 20px;
+    border-radius: 30px;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+.comm-butt:hover{
+    background-color: #ff6501;
+    color: #4a3836;
+
+    #comm-arr{
+        background: #ff6501;
+        color: #4a3836;
+    }
+}
+
+
+/*FAQ Section*/
+#faq-section {
+    width: 1160px;
+    margin: 80px auto;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 12px;
+}
+#faq-inside{
+    background-color: #ffffff;
+    padding: 5px;
+    margin: 5px;
+}
+
+.faq-item {
+    margin-bottom: 20px;
+}
+
+.faq-item h3 {
+    font-weight: bold;
+    color: #333;
+}
+
+.faq-item p {
+    color: #666;
+    line-height: 1.4;
+}
+
+.faq-item a {
+    text-decoration: none;
+    color: #3498db; /* Link color */
+}
+.faq-item a:hover {
+    text-decoration: underline;
+}
+
+#faq-section h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+
+/*Post Question Section*/
+.question-section {
+    width: 1160px;
+    margin: 35px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    color: #4a3836;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    text-align: left;
+    margin: 10px 0;
+    color: #4a3836;
+}
+
+textarea,
+input {
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 20px;
+    margin: 15px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #2186c8;
+    opacity: 0.6;
+}
+
+#ytmain {
     display: flex;
     align-items: center;
     justify-content: center;
