@@ -1,5 +1,5 @@
+/*Community - Hero Section  -  Start*/
 #community-hero {
-
     background-color: #fff;
     color: #4a3836;
     text-align: center;
@@ -12,18 +12,7 @@
     margin: 0 auto;
 }
 
-h1 i {
-    background: #ff0000;
-    color: white;
-}
-
-
-#icon{
-    font-size: 30px;
-    width: 30px;
-}
-
-/*Com - Icon*/
+/*Com - Icon - Start*/
 #comicon{
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     background-color: #CADDFF;
@@ -35,8 +24,7 @@ h1 i {
     width: 100%;
     color: #4a3836;
     text-align: center;
-    margin: 40px 0;
-    
+    margin: 40px 0;  
 }
 #comicon-icon{
     width: 100%;
@@ -46,12 +34,15 @@ h1 i {
     margin: 40px 0;
     justify-content: center;
 }
+#icon{
+    font-size: 30px;
+    width: 30px;
+}
 #wa i {
     background: #11e746;
     color: white;
     margin: 20px;
 }
-
 #ig i {
     background: linear-gradient(45DEG, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
     color: white;
@@ -77,8 +68,11 @@ h1 i {
     color: white;
     margin: 20px;
 }
+/*Com - Icon - End*/
+/*Community - Hero Section  -  End*/
 
-/*Comm -Div*/
+
+/*Comm -Div  - Starts*/
 #comm-div{
     display: flex;
     flex-direction: column;
@@ -125,7 +119,6 @@ h1 i {
     color: white;
     font-size: 18px;
 }
-
 .comm-butt{
     background-color: #4a3836;
     color: white;
@@ -144,9 +137,10 @@ h1 i {
         color: #4a3836;
     }
 }
+/*Comm Div - Ends*/
 
 
-/*FAQ Section*/
+/*FAQ Section - Starts*/
 #faq-section {
     width: 1160px;
     margin: 80px auto;
@@ -159,21 +153,17 @@ h1 i {
     padding: 5px;
     margin: 5px;
 }
-
 .faq-item {
     margin-bottom: 20px;
 }
-
 .faq-item h3 {
     font-weight: bold;
     color: #333;
 }
-
 .faq-item p {
     color: #666;
     line-height: 1.4;
 }
-
 .faq-item a {
     text-decoration: none;
     color: #3498db; /* Link color */
@@ -181,15 +171,16 @@ h1 i {
 .faq-item a:hover {
     text-decoration: underline;
 }
-
 #faq-section h2 {
     font-size: 24px;
     color: #333;
     margin-bottom: 20px;
 }
+/*FAQ Section - Ends*/
 
 
-/*Post Question Section*/
+
+/*Post Question Section - Starts*/
 .question-section {
     width: 1160px;
     margin: 35px auto;
@@ -200,18 +191,15 @@ h1 i {
     text-align: center;
     color: #4a3836;
 }
-
 form {
     display: flex;
     flex-direction: column;
 }
-
 label {
     text-align: left;
     margin: 10px 0;
     color: #4a3836;
 }
-
 textarea,
 input {
     padding: 10px;
@@ -219,7 +207,6 @@ input {
     border: 1px solid #ccc;
     border-radius: 4px;
 }
-
 button {
     background-color: #3498db;
     color: #fff;
@@ -230,12 +217,19 @@ button {
     cursor: pointer;
     transition: background-color 0.3s;
 }
-
 button:hover {
     background-color: #2186c8;
     opacity: 0.6;
 }
+/*Post Question Section - Ends*/
 
+
+
+/*YouTube Section - Start*/
+h1 i {
+    background: #ff0000;
+    color: white;
+}
 #ytmain {
     display: flex;
     align-items: center;
@@ -247,50 +241,22 @@ button:hover {
     background-color: #e8e8e8;
     border-radius: 12px;
 }
-
 .video-cont {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
-    /* Set the width as per your design */
-    /* Set the height as per your design */
     max-width: 560px;
-    margin: 0 auto;
-    /* Center the video horizontally */
+    margin: 0 auto;/* Center the video horizontally */
     background-color: rgb(255, 255, 255);
 }
-
 .text-cont {
-    width: 50%;
-    /* Set the width as per your design */
-    height: 405px;
-    /* Set the height as per your design */
+    width: 50%;/* Set the width as per your design */
+    height: 405px;/* Set the height as per your design */
     margin: 20px;
     text-align: justify;
     padding: 15px 35px;
     background-color: rgb(255, 255, 255);
 }
+/*YouTube Section - End*/
 
-.notice-board {
-    width: 98%;
-    text-align: center;
-    margin: 20px auto;
-    background-color: #8ecae6;
-    border: 1px solid #ccc;
-    padding: 10px;
-    border-radius: 5px;
-}
-
-.notice {
-    text-align: left;
-}
-
-/* Style for individual notices */
-.notice {
-    margin: 10px 0;
-    padding: 5px;
-    background-color: #fff;
-    border: 1px solid #ddd;
-    border-radius: 3px;
-}
