@@ -1,55 +1,106 @@
-
-
-#faq-section {
-    width: 1160px;
-    margin: 80px auto;
-    padding: 20px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-    border-radius: 12px;
-}
-#faq-inside{
-    background-color: #ffffff;
-    padding: 5px;
-    margin: 5px;
+/** Hero Section **/
+#sec-hero {
+    background-color: white;
+    color: #4a3836;
+    text-align: center;
+    padding-top: 150px;
+    height: 200px;
 }
 
-.faq-item {
-    margin-bottom: 20px;
-}
-
-.faq-item h3 {
-    font-weight: bold;
-    color: #333;
-}
-
-.faq-item p {
-    color: #666;
-    line-height: 1.4;
-}
-
-.faq-item a {
-    text-decoration: none;
-    color: #3498db; /* Link color */
-}
-.faq-item a:hover {
-    text-decoration: underline;
-}
-
-#faq-section h2 {
-    font-size: 24px;
-    color: #333;
-    margin-bottom: 20px;
-}
-
-
-
-#feedback-section {
+/* Style for the contact form container */
+.contact-form {
+    background-color: #fff;
     display: flex;
+    justify-content: space-evenly;
     align-items: center;
-    justify-content: center;
-    width: 100%;
-    background-color: #e2c782;
+
+
 }
+
+.form {
+    width: 50%;
+    margin: 20px 20px;
+    padding: 10px 30px;
+    background-color: #fff;
+    border-radius: 12px;
+    color: #4a3836;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+
+}
+
+.write-img {
+    padding: 0px;
+
+
+}
+
+/* Style for form elements */
+.form-group {
+    margin: 20px;
+}
+
+.form h2 {
+    color: #4a3836;
+    text-align: center;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin: 10px 0px;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group textarea {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #4a3836;
+    border-radius: 3px;
+}
+
+/* Style for the submit button */
+.submit-button {
+    background-color: #4a3836;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 3px;
+    cursor: pointer;
+    margin: 20px;
+}
+
+.submit-button:hover {
+    background-color: #ff6501;
+}
+
+
+.feedback-container {
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    margin: 40px 0px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.rating {
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.rating .star {
+    color: #ddd;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.rating .star:hover,
+.rating .star.active {
+    color: #ff6501;
+}
+
+
 
 h2 {
     font-size: 24px;
@@ -82,18 +133,24 @@ h2 {
     margin: 10px 0;
 }
 
+.feedbackform {
+    display: flex;
+    justify-content: center;
+}
+
 .feedback-form {
-    background-color: #e8e8e8;
+
     border-radius: 8px;
-    height: 350px;
-    padding: 20px;
-    margin-right: 5px;
-    flex: 35%;
+    width: 50%;
+    height: 250px;
+    padding: 10px 100px 10px 100px;
+    margin: 50px auto;
+
 }
 
 .feedback-form h3 {
     font-size: 18px;
-    color: #333;
+    color: #4a3836;
     margin-bottom: 10px;
 }
 
@@ -111,7 +168,7 @@ h2 {
 }
 
 .feedback-form button {
-    background-color: #3498db;
+    background-color: #4a3836;
     color: #fff;
     border: none;
     padding: 10px;
@@ -119,49 +176,5 @@ h2 {
 }
 
 .feedback-form button:hover {
-    background-color: #2977ab;
-}
-
-
-
-/* Style for the contact form container */
-.contact-form {
-    width: 1160px;
-    margin: 80px auto;
-    padding: 10px 40px;
-    background-color: #e8e8e8;
-    border-radius: 12px;
-}
-
-/* Style for form elements */
-.form-group {
-    margin-bottom: 10px;
-}
-
-.form-group label {
-    display: block;
-    font-weight: bold;
-}
-
-.form-group input[type="text"],
-.form-group input[type="email"],
-.form-group textarea {
-    width: 100%;
-    padding: 5px;
-    border: 1px solid #ccc;
-    border-radius: 3px;
-}
-
-/* Style for the submit button */
-.submit-button {
-    background-color: #333;
-    color: #fff;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 3px;
-    cursor: pointer;
-}
-
-.submit-button:hover {
-    background-color: #555;
+    background-color: #ff6501;
 }

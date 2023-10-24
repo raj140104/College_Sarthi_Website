@@ -18,7 +18,7 @@ header {
 
     background-color: #ffffff;
     position: fixed;
-    padding: 1em 0;
+    padding: 0.5em 0;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -29,8 +29,8 @@ header {
 }
 
 #logo {
-    height: 70px;
-    width: 180px;
+    height: 60px;
+    width: 170px;
     padding: 5px;
     margin: 5px 100px 5px 5px;
 }
@@ -182,7 +182,6 @@ footer {
     border-radius: 50%;
     transition: transform 0.3s ease;
 }
-
 #iconh{
     font-size: 30px;
     width: 30px;
