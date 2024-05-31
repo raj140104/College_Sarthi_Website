@@ -1,6 +1,6 @@
 # College Sarthi Website
 
-This repository contains the code for the College Sarthi website, designed to assist students with college counseling, internships, hostel rentals, and community engagement. The website is built using HTML and CSS. This project was created as a prototype to support a friend's startup idea and is not intended for commercial use.
+This repository contains the frontend code for the College Sarthi website, designed to assist students with college counseling, internships, hostel rentals, and community engagement. The website is built using HTML and CSS. This project was created as a prototype to support a friend's startup idea and is not intended for commercial use.
 
 ## Table of Contents
 - [Overview](#overview)
