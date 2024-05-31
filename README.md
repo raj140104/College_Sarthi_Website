@@ -33,7 +33,7 @@ To run this project locally, follow these steps:
 
 1. **Clone the repository:**
    ```sh
-   git clone https://github.com/yourusername/college-sarthi-website.git
+   git clone https://github.com/raj140104/college-sarthi-website.git
    ```
 2. **Navigate to the project directory:**
    ```sh
